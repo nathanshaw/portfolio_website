@@ -1,5 +1,9 @@
 # Portfolio
 
+# Explorator
+![Explorator clapper](/images/explorator_clapper_actuator.jpeg)
+Format: ![Alt Text](url)
+
 # Interactive
 [Horizontal Dots](horizontal_dots/index.html)
 [Vertical Dots](vertical_dots/index.html)
