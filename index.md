@@ -1,4 +1,11 @@
+---
+youtubeId: NDFycD86Sos2ckxruuLb2Q
+---
+
 # Portfolio
+
+# Speculator
+{% include youtubePlayer.html id=page.youtubeId %}
 
 # Explorator
 ![Explorator clapper](/images/explorator_clapper_actuator.jpeg)
