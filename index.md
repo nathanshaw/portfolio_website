@@ -4,7 +4,12 @@ youtubeId: NDFycD86Sos2ckxruuLb2Q
 
 # Portfolio
 
+# Projects
+
+[Project Page]{project_page/index.md}
+
 # Speculator
+https://youtu.be/0rV7fUfOdP0
 {% include youtubePlayer.html id=page.youtubeId %}
 
 # Explorator
