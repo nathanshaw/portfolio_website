@@ -6,7 +6,7 @@ youtubeId: NDFycD86Sos2ckxruuLb2Q
 
 # Projects
 
-[Project Page](project_page/index.md)
+[Project Page](project_page/index.html)
 
 # Speculator
 https://youtu.be/0rV7fUfOdP0
