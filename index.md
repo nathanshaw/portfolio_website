@@ -9,12 +9,12 @@ youtubeId: NDFycD86Sos2ckxruuLb2Q
 [Project Page](project_page/index.html)
 
 # Speculator
-https://youtu.be/0rV7fUfOdP0
+<!-- https://youtu.be/0rV7fUfOdP0 -->
 {% include youtubePlayer.html id=page.youtubeId %}
 
 # Explorator
 ![Explorator clapper](/images/explorator_clapper_actuator.jpeg)
-Format: ![Alt Text](url)
+<!-- Format: ![Alt Text](url) -->
 
 # Interactive
 [Horizontal Dots](horizontal_dots/index.html)
