@@ -22,12 +22,12 @@
     // of different video formats to add
     src: [
       {
-        src: 'night.mp4',
+        src: '../videos/speculator_01.mp4',
         type: 'video/mp4'
       },
       {
-        src: 'night.webm',
-        type: 'video/webm;codecs="vp8, vorbis"'
+        src: '../videos/explorator_clapper_01.mp4',
+        type: 'video/mp4'
       }
     ],
 
