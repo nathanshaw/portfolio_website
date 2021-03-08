@@ -4,7 +4,9 @@ youtubeId: NDFycD86Sos2ckxruuLb2Q
 
 # Landing Page
 
-[Landing Page](landing_page/index.html)
+[Landing Page 1](landing_page1/index.html)
+[Landing Page 2](landing_page2/index.html)
+
 
 # Projects
 [Project Page](project_page/index.html)
