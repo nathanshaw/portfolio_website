@@ -50,7 +50,7 @@ function shuffle(array) {
       }
     ],
 
-    src = shuffle(src)
+    src = shuffle(src),
 
     // What to do once video loads (initial frame)
     onLoad: function () {
