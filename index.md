@@ -4,7 +4,12 @@ youtubeId: NDFycD86Sos2ckxruuLb2Q
 
 # Landing Page
 - [Landing Page 1](landing_page1/index.html)
-- [Landing Page 2](landing_page2/index.html)
+
+- [Explorator pecker](explorator/pecker.html)
+- [Explorator chirper](explorator/chirper.html)
+- [Explorator clapper](explorator/clapper.html)
+- [Explorator shaker](explorator/shaker.html)
+- [Speculator](speculator.html)
 
 # Projects
 - [Project Page](project_page/index.html)
