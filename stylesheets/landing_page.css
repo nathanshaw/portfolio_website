@@ -36,26 +36,61 @@ ul {
     padding:0;
     list-style: none;
 }
-.footer-social-icons {
-    width: 350px;
-    display:block;
+/* the highest level container for the social media icons */
+#footer-social-icons {
+    /* width: 350px; */
+    width: 48%;
+    float: left;
+}
+
+.table {
+    /* position: relative; */
+    display:table;
     margin: 0 auto;
+    box-sizing:border-box;
 }
-.social-icon {
-    color: #fff;
+
+  /* this container is to keep all the footer stuff together*/
+.footer_container {
+    padding: 0px;
 }
-ul.social-icons {
-    margin-top: 10px;
+
+/* when someone clicks on the header text, they should be taken to the project page */
+
+.header_text {
+    font-size: 30px;
+    padding: 5px 15px;
+    text-align: right;
+    float:right;
 }
-.social-icons li {
-    vertical-align: top;
+
+.header_container {
+    padding:0px, 0px;
+}
+
+/* the container which the individual icons reside */
+ul#social-icons {
+    margin-top: 0px;
+    min-width: 45%;
+    list-style: none;
+}
+/* the actual icons themselves */
+ul#social-icons li {
+    /*vertical-align: text-top;
+    text-align: center;*/
     display: inline;
-    height: 100px;
+    height: 100%;
 }
+
 .social-icons a {
     color: #fff;
     text-decoration: none;
 }
+
+.social-icon {
+    color: #fff;
+}
+
 .fa-facebook {
     padding:10px 14px;
     -o-transition:.5s;
@@ -154,8 +189,7 @@ ul.social-icons {
 }
 .embed-container { 
     position: relative; 
-    padding-bottom: 56.25%; 
-    height: 0; 
+    padding-bottom: 56%; 
     overflow: hidden; 
     max-width: 100%; 
 } 
@@ -180,35 +214,55 @@ ul.social-icons {
     color:#5c9ff7
  }
 
- .collapsible {
+ .collapsible_left {
     background-color: #322f30;
     color: white;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    padding: 1%;
+    width: 25%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
-    z-index:1;
+    font-size: 18px;
+    float: left;
+    /* display: inline-block; */
+    /*z-index:2;*/
   }
-  
-  .active, .collapsible:hover {
+
+ .collapsible_right{
+    background-color: #322f30;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    width: 25%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 18px;
+    float: right;
+    /* display: inline-block; */
+    /*z-index:3;*/
+  }
+
+  .active, .collapsible_right:hover {
+    background-color: #555;
+  }
+  .active, .collapsible_left:hover {
     background-color: #555;
   }
   
-  .content {
+  .hidden_content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #322f30;
   }
 
   .maincontent {
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    color: #322f30;
     width: 100%;
     padding: 20px;
   }
@@ -236,7 +290,7 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
+
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #435caf;

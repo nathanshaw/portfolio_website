@@ -2,6 +2,7 @@
     height: 100%;
     width: 0;
     position: fixed;
+    float: left;
     z-index: 0;
     top: 0;
     left: 0;
@@ -9,6 +10,7 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    display:inline-block;
   }
   
   .sidebar a {
@@ -35,7 +37,7 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
+    background-color: #322f30;
     color: white;
     padding: 10px 15px;
     border: none;
