@@ -1,0 +1,11 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+
+#header {
+    text-align: justify;
+}
+
+#header h1 {
+    margin: auto;
+    vertical-align: middle;
+}

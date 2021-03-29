@@ -1,0 +1,118 @@
+
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Explorator MB Mechatronic Creature</title>
+    <meta name="keywords"
+        content="hypersoundwalk, music box, mb, soundwalk, installation art, explorator, explorators, nathan villicana-shaw, clapper, explorator clapper">
+    <meta name="description" content="Explorator mb">
+    <link rel="stylesheet" href="../stylesheets/landing_page.css">
+    <link rel="stylesheet" href="../stylesheets/adaptive_side_menu.css">
+</head>
+
+<body>
+    <div class="header_container">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="https://www.nathanvillicanashaw.com/speculator"><i
+                    class="fa fa-fw fa-circle-thin"></i>Speculator</a>
+            <button class="collapsible"><i class="fa fa-fw fa-arrows-alt"></i>Explorator</button>
+            <div class="panel">
+                <a href="https://www.nathanvillicanashaw.com/explorator/chirper.html">chirper</a>
+                <a href="https://www.nathanvillicanashaw.com/explorator/pecker.html">pecker</a>
+                <a href="https://www.nathanvillicanashaw.com/explorator/clapper.html">clapper</a>
+                <a href="https://www.nathanvillicanashaw.com/explorator/shaker.html">shaker</a>
+                <a href="https://www.nathanvillicanashaw.com/explorator/mb.html">mb</a>
+            </div>
+            <a href="https://www.nathanvillicanashaw.com/legatus"><i class="fa fa-fw fa-volume-up"></i>Legatus</a>
+            <a href="https://www.nathanvillicanashaw.com/archive/browse.html"><i
+                    class="fa fa-fw fa-archive"></i>Archive</a>
+        </div>
+
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <script src="../javascripts/open_side_form.js" type="text/javascript"></script>
+
+        <div class="header_text">
+            <!-- link to the project page -->
+            <a href="https://www.nathanvillicanashaw.com/archive/explorator/music_box.html">Explorator chirper</a>
+        </div>
+    </div>
+
+    <!-- The Video background -->
+    <div id="main">
+        <div class='embed-container'>
+            <iframe src='https://player.vimeo.com/video/521133880?background=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+
+
+        <div class="footer_container">
+            <!-- TODO Need to get these buttons so they are displayed on the same line as the social media icons...-->
+            <!-- TODO - Need to show the comments already made once the comment button is clicked upon? -->
+            <!-- TODO - get the user to "sign in" using google, facebook, etc in order to comment? -->
+            <button type="button" class="collapsible_left">Comments</button>
+            <div class="hidden_content">
+                <form action="../php/comment_form_actions.php" <label for="fname">Name</label>
+                    <input type="text" id="fname" name="Name" placeholder="Your name..">
+
+                    <label for="subject"></label>Comment</label>
+                    <textarea id="subject" name="comment" placeholder="Questions, Comments, Suggestions?"
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Post">
+
+                </form>
+            </div>
+
+            <div id="footer-social-icons">
+                <div class="table">
+                    <ul id="social-icons">
+                        <li><a href="https://www.facebook.com/nathan.shaw.775" class="social-icon"> <i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/ShawVillicana" class="social-icon"> <i
+                                    class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/channel/UCNDFycD86Sos2ckxruuLb2Q" class="social-icon"> <i
+                                    class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/nathan-villicana-shaw/" class="social-icon"> <i
+                                    class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/nathanshaw" class="social-icon"> <i
+                                    class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/nathankillicana/" class="social-icon"> <i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://vimeo.com/nathanvillicanashaw" class="social-icon"> <i
+                                    class="fa fa-vimeo"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <button type="button" class="collapsible_right">Contact</button>
+            <!-- TODO - the contact form and comments forms should expand when the appropiate button is clicked on-->
+            <div class="hidden_content">
+                <div class="contact_container">
+                    <form action="/contact_form_actions.php" method="post">
+                        <label for="fname">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Message body.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="../javascripts/accordian_forms.js" type="text/javascript"></script>
+    </div>
+</body>
+
+</html>
