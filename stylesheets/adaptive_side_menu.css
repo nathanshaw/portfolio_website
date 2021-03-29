@@ -13,7 +13,7 @@
   }
   
   .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 4px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -22,6 +22,44 @@
   }
   
   .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidebar .hidden_a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    background-color: #111;
+    display: none;
+    transition: 0.3s;
+    visibility: hidden;
+  }
+  
+  .sidebar .hidden_a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidebar .collapsible {
+    padding: 8px 4px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    background-color: #111;
+    display: block;
+    transition: 0.3s; 
+    border: none;
+  }
+
+  .sidebar .panel {
+    padding: 0 50px;
+    color: #818181;
+    background-color: #111;
+    display: none;
+    overflow: hidden;
+  }
+
+  .sidebar .collapsible:hover {
     color: #f1f1f1;
   }
   

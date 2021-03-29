@@ -8,14 +8,17 @@ body {
 }
 a {
     text-decoration: none;
-    color:#dd95ff;
+    color:#ffffff;
     transition: .5s
+}
+button:hover {
+    color:#5c9ff7
 }
 a:hover {
     color:#5c9ff7
 }
 p > a:hover{
-    color: #d9d9d9;
+    color: #a59999;
     text-decoration:  underline;
 }
 h1,
@@ -244,11 +247,10 @@ ul#social-icons li {
     /*z-index:3;*/
   }
 
-  .active, .collapsible_right:hover {
-    background-color: #555;
-  }
+  .active, .collapsible_right:hover,
   .active, .collapsible_left:hover {
     background-color: #555;
+    
   }
   
   .hidden_content {
