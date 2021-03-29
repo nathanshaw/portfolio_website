@@ -1,0 +1,12 @@
+This file contains all the colors for the website
+
+Blacks
+
+Whites
+
+blue-like (used for the project names in archive and perhaps the contact and Projects text too?)
+color: rgb(195, 211, 255)
+
+rgb(221, 247, 253);
+
+Hovers

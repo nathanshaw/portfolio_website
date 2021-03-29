@@ -87,7 +87,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -114,6 +116,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 
 body {
 	-webkit-text-size-adjust: none;
@@ -164,6 +167,7 @@ input, select, textarea {
 
 	body {
 		background: #242629;
+ 		color: rgb(122, 229, 253);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1641,6 +1645,7 @@ input, select, textarea {
 			position: relative;
 		}
 
+
 			#main .thumb:after {
 				background-image: -moz-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
@@ -1679,20 +1684,20 @@ input, select, textarea {
 				z-index: 1;
 				cursor: pointer;
 				background-color: #322f30;
-				color: white;
 				padding: 10px 15px;
 				border: none;
 				display: none;
+ 				color: rgb(122, 229, 253);
 			}
 
 			#main .thumb > h2 {
 				pointer-events: none;
-				bottom: 1.875em;
-				font-size: 0.8em;
-				left: 2.1875em;
-				margin: 0;
-				position: absolute;
+				bottom: 0.2em;
+				font-size: 1.2em;
+				left: 0.8em;
 				z-index: 1;
+				color: rgb(221, 247, 253);
+				position: absolute;
 			}
 
 			#main .thumb > p {
